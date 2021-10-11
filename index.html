@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Web portfolio</title>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+        integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <!-- Bulma Version 0.9.0-->
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/personal.css">
+    <link rel="stylesheet" href="./style.css">
+    <script async type="text/javascript" src="../js/bulma.js"></script>
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+</head>
+
+<body>
+    <!-- Navigation bar -->
+    <nav class="navbar is-dark is-fixed-top">
+        <div class="navbar-brand">
+            <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <div id="navbarExampleTransparentExample" class="navbar-menu">
+            <div class="navbar-end">
+                <a class="navbar-item" href="#about">
+                    <span class="icon">
+                        <i class="fas fa-info has-text-danger"></i>
+                    </span>
+                    <span>About</span>
+                </a>
+                <a class="navbar-item" href="#skills">
+                    <span class="icon">
+                        <i class="fas fa-cog has-text-success"></i>
+                    </span>
+                    <span>Skills</span>
+                </a>
+                <a class="navbar-item" href="#resume">
+                    <span class="icon">
+                        <i class="fas fa-file-alt has-text-warning"></i>
+                    </span>
+                    <span>Resume</span>
+                </a>
+                <a class="navbar-item" href="#portfolio">
+                    <span class="icon">
+                        <i class="fas fa-th-list has-text-primary"></i>
+                    </span>
+                    <span>Portfolio</span>
+                </a>
+                <!--  <a class="navbar-item" href="#contact">
+                    <span class="icon">
+                        <i class="fas fa-envelope"></i>
+                    </span>
+                    <span>Contact</span>
+                </a> -->
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <section class="hero is-dark is-fullheight is-fullheight-with-navbar">
+        <div class="hero-body">
+            <div class="container">
+                <div class="title proverb is-family-primary is-italic has-text-weight-bold subtitle is-3 is-hidden-touch">
+                    <p>"Have the courage to follow your heart and intuition. <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;They somehow know what you truly want to
+                        become." <br>
+                    </p>
+                    <p style="text-indent:700px">- Steve Jobs</p>
+                </div>
+                <div class="title proverb is-family-primary is-italic has-text-weight-bold subtitle is-3 is-hidden-desktop is-flex-touch">
+                    <p>"Have the courage to follow your heart and intuition.
+                        They somehow know what you truly want to
+                        become." <br> - Steve Jobs</p>
+                </div>
+                <br><br><br><br><br><br><br><br><br><br><br>
+                <div class="subtitle hello">Hello! I am
+                    <h1 class="is-size-1 has-text-danger">Eri Kilanowski</h1>
+                    <h2>Aspiring Software Engineer</h2>
+                </div>
+
+            </div>
+
+            <!--  <div class="is-family-primary is-italic has-text-weight-bold subtitle is-3">
+                <p>"Have the courage to follow your heart and intuition. They somehow know what you truly want to
+                    become." - Steve Jobs</p>
+            </div>
+            <div class="container">Hello! I am
+                <h1 class="title is-1">
+                    Eri Kilanowski
+                </h1>
+                <h2 class="subtitle is-3">
+                    Aspiring Full Stack Web Developer
+                </h2>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="section ml-5" id="about">
+        <!-- Title -->
+        <div class="section-heading">
+            <h3 class="title is-2 has-text-centered">About Me</h3>
+            <h4 class="subtitle is-5 is-italic has-text-centered">Where there’s a will, there’s a way.</h4> <br>
+        </div>
+        <div class="columns has-same-height is-centered">
+            <!-- Profile -->
+            <div
+                class="column is-half-desktop is-one-third-widescreen is-one-quarter-fullhd">
+                <div class="card has-background-dark has-text-white" style="height: 520;">
+                    <div class="card-content">
+                        <h3 class="title is-4 has-text-white">Profile</h3>
+                        <div class="content">
+                            <table class="table-profile">
+                                <tr>
+                                    <th colspan="1"></th>
+                                    <th colspan="2"></th>
+                                </tr>
+                                <tr>
+                                    <td>Name:</td>
+                                    <td>Eri Kilanowski</td>
+                                </tr>
+                                <tr>
+                                    <td>My Quote:</td>
+                                    <td>The journey is long, but the goal is in each step.</td>
+                                </tr>
+                                <tr>
+                                    <td>Hobbies:</td>
+                                    <td>Yoga / Reading books / Listening to podcasts</td>
+                                </tr>
+                                <tr>
+                                    <td>Languages:</td>
+                                    <td>English / Japanese</td>
+                                </tr>
+                                <tr>
+                                    <td>Loacation:</td>
+                                    <td>Woodinville Washington</td>
+                                </tr>
+                                <tr>
+                                    <td>Email:</td>
+                                    <td>erikilanowski@gmail.com</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div>
+                            <div class="buttons has-addons is-centered">
+                                <a href="https://github.com/eri707" class="button is-primary">Github</a>
+                                <a href="https://www.linkedin.com/in/erikilanowski/"
+                                    class="button is-primary">LinkedIn</a>
+                                <a href="https://www.codewars.com/users/eri707" class="button is-primary">Codewars</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="column is-half-desktop is-one-third-widescreen is-one-quarter-fullhd">
+                <div class="card has-background-dark has-text-white pb-3">
+                    <div class="card-content">
+                        <h3 class="title is-4 has-text-white">Biography</h3>
+                        <div class="content">
+                            <p> Over the past 10 years I worked as an external auditor and a CPA.</p>
+                            <p>During
+                                this time, I had
+                                opportunities to interact with CEOs and boards, learn businesses processes across
+                                different
+                                industries
+                                worked with and lead teams, all while keeping professional to the highest Japanese
+                                standards.</p>
+                            <p>I would like to open my new career as a software developer by building on these
+                                experiences with
+                                technical skills outlined below. </p>
+                            <p>If given the opportunity, I would aim to contribute maximum effort to your company
+                                and aim to see
+                                it thrive.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Skills -->
+        <br><br><br>
+        <section class="section" id="skills">
+            <div class="skills-content">
+                <h3 class="title is-2 has-text-centered"> Skills</h3>
+                <div>
+                    <div class="grid-container">
+                        <div class="grid-item">
+                            <img src="./src/skills/javascript-logo.png" alt="htmlCssJs" width="140" height="200">
+                        </div>
+                        <div class="grid-item">
+                            <img src="./src/skills/vue.js.jpg" alt="vue" width="120">
+                        </div>
+                        <div class="grid-item">
+                            <img src="./src/skills/devblog-brand-visualstudiowin2019.png" alt="visual studio"
+                                width="120">
+                        </div>
+                        <div class="grid-item">
+                            <img src="./src/skills/20151014111043_csharp.png" alt="csharp" width="200">
+                        </div>
+                        <div class="grid-item">
+                            <img src="./src/skills/expressNode.png" alt="node" width="130">
+                        </div>
+                        <div class="grid-item">
+                            <img src="./src/skills/mssql.png" alt="sql" width="110">
+                        </div>
+                        <div class="grid-item">
+                            <img src="./src/skills/aspdotnet.png" alt="asp.net" width="110">
+                        </div>
+                        <div class="grid-item">
+                            <img src="./src/skills/bulma.jpg" alt="bulma" width="110">
+                        </div>
+                        <div class="grid-item">
+                            <img src="./src/skills/github.png" alt="github" width="110">
+                        </div>
+                        <div class="grid-item">
+                            <img src="./src/skills/alpine.png" alt="alpinejs" width="60">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!-- Skills tags -->
+    <!--  <br>
+    <div class="tags custom-tags">
+        <span class="tag is-light">Node.js</span><span class="tag is-light">Express.js</span><span
+            class="tag is-light">VueJS</span><span class="tag is-light">JavaScript</span><span
+            class="tag is-light">HTML5</span><span class="tag is-light">Canvas</span><span
+            class="tag is-light">CSS3</span><span class="tag is-light">Bulma</span><span
+            class="tag is-light">Bootstrap</span><span class="tag is-light">jQuery</span><span
+            class="tag is-light">Pug</span><span class="tag is-light">Stylus</span><span
+            class="tag is-light">SASS/SCSS</span><span class="tag is-light">Webpack</span><span
+            class="tag is-light">Git</span><span class="tag is-light">ASP.NET Web Forms</span><span
+            class="tag is-light">MSSQL</span><span class="tag is-light">MongoDB</span><span class="tag is-light">Apache
+            Cordova</span><span class="tag is-light">Chrome Extensions</span>
+    </div> -->
+
+    <!-- Services -->
+    <!--  <section class="section" id="services">
+        <div class="section-heading">
+            <h3 class="title is-2">Services</h3>
+            <h4 class="subtitle is-5">What can I do for you?</h4>
+        </div>
+        <div class="container">
+            <div class="columns">
+                <div class="column">
+                    <div class="box">
+                        <div class="content">
+                            <h4 class="title is-5">Front End Web Development</h4>
+                            Develop Front End using latest standards with HTML5/CSS3 with added funtionality using
+                            JavaScript and
+                            Vue.js.
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="box">
+                        <div class="content">
+                            <h4 class="title is-5">Back End Web Development</h4>
+                            Develop Back End application/service using Node.js or ASP .NET and SQL server or Mongo DB
+                            databases.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="columns">
+                <div class="column">
+                    <div class="box">
+                        <div class="content">
+                            <h4 class="title is-5">Front End Web Development</h4>
+                            Develop Front End using latest standards with HTML5/CSS3 with added funtionality using
+                            JavaScript and
+                            Vue.js.
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="box">
+                        <div class="content">
+                            <h4 class="title is-5">Back End Web Development</h4>
+                            Develop Back End application/service using Node.js or ASP .NET and SQL server or Mongo DB
+                            databases.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Resume -->
+    <section class="section" id="resume">
+        <div class="section-heading has-text-centered">
+            <h3 class="title is-2">Resume</h3>
+            <h4 class="subtitle is-5">More about my past</h4>
+            <a href="./src/Resume 0806.pdf" class="button is-primary is-medium">
+                <span class="icon">
+                    <i class="fas fa-file-alt"></i>
+                </span>
+                <span>Download My Resume</span>
+            </a>
+            <!--  <div class="mt-5">
+                <img src="./src/resume.jpg" alt="">
+            </div> -->
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section class="section" id="portfolio">
+        <div class="container">
+            <div class="section-heading has-text-centered">
+                <h3 class="title is-2">Portfolio</h3>
+                <h4 class="subtitle is-5">My latest works</h4>
+            </div>
+            <br>
+            <div class="container portfolio-container">
+                <div class="columns">
+                    <div class="column is-4">
+                        <!-- restapi -->
+                        <div class="card">
+                            <header class="card-header">
+                                <div class="card-header-title">
+                                    <span>RestApi</span>
+                                    <span class="is-pulled-right is-flex">
+                                        <span class="tag is-default ml-1">Desktop</span>
+                                        <span class="tag is-danger">WIP</span>
+                                    </span>
+                                    <div class="is-size-7 ml-3 has-text-primary">
+                                        <div class="grid-container2">
+                                            <div class="grid-items2">
+                                                <img src="./src/skills/C_sharp CDMx.png" alt="" width="25">
+                                            </div>
+                                            <div class="grid-items2">
+                                                <img src="./src/skills/bulma.jpg" alt="" width="55">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </header>
+                            <div class="card-content">
+                                <figure class="image">
+                                    <img src="./src/portfolioScreenShots/no-image-available-icon-6.png"
+                                        alt="game template screenshot">
+                                </figure>
+                            </div>
+                            <footer class="card-footer">
+                                <a href="" class="card-footer-item isDisabled">Preview</a>
+                                <a href="" class="card-footer-item isDisabled">Source Code</a>
+                            </footer>
+                        </div>
+                        <br>
+                        <!-- todo-list -->
+                        <div class="card">
+                            <header class="card-header">
+                                <div class="card-header-title">
+                                    <span>Todo-List</span>
+                                    <span class="is-pulled-right">
+                                        <span class="tag is-default ml-1">Desktop</span>
+                                        <!-- <span class="tag is-danger">WIP</span> -->
+                                    </span>
+                                    <span class="is-size-7 ml-3 has-text-primary">
+                                        <div class="grid-container2">
+                                            <div class="grid-items2">
+                                                <img src="./src/skills/alpine.png" alt="" width="25">
+                                            </div>
+                                            <div class="grid-items2">
+                                                <img src="./src/skills/bulma.jpg" alt="" width="55">
+                                            </div>
+                                            <div class="grid-items2">
+                                                <img src="./src/skills/logo-aspdotnet-300x150.jpg" alt="" width="60">
+                                            </div>
+                                        </div>
+                                    </span>
+                                </div>
+                            </header>
+                            <div class="card-content">
+                                <figure class="image">
+                                    <img src="./src/portfolioScreenShots/Screenshot 2021-10-01 160822.png"
+                                        alt="Todo-List template screenshot">
+                                </figure>
+                            </div>
+                            <footer class="card-footer">
+                                <a href="https://eri707.github.io/cf-todolist/Index.html"
+                                    class="card-footer-item">Preview</a>
+                                <a href="https://github.com/eri707/cf-todolist" class="card-footer-item">Source
+                                    Code</a>
+                            </footer>
+                        </div>
+                        <br> <!-- recipeCatalog -->
+                        <div class="card">
+                            <header class="card-header">
+                                <div class="card-header-title">
+                                    <span>RecipeCatalog</span>
+                                    <span class="is-pulled-right">
+                                        <span class="tag is-default ml-1">Desktop</span>
+                                        <!-- <span class="tag is-default">?</span> -->
+                                    </span>
+                                    <span class="is-size-7 ml-3 has-text-primary">
+                                        <div class="grid-container2">
+                                            <div class="grid-items2">
+                                                <img src="./src/skills/javascript-logo.png" alt="" width="60">
+                                            </div>
+                                            <div class="grid-items2">
+                                                <img src="./src/skills/vue.js.jpg" alt="" width="43">
+                                            </div>
+                                            <div class="grid-items2">
+                                                <img src="./src/skills/express-js-an-ideal-node-js-framework-to-develop-enterprise-web-applications.jpg"
+                                                    alt="" width="50">
+                                            </div>
+                                        </div>
+                                    </span>
+                                </div>
+                            </header>
+                            <div class="card-content">
+                                <figure class="image">
+                                    <img src="./src/portfolioScreenShots/no-image-available-icon-6.png"
+                                        alt="recipeCatalog template screenshot">
+                                </figure>
+                            </div>
+                            <footer class="card-footer">
+                                <a href="" class="card-footer-item isDisabled">Preview</a>
+                                <a href="https://github.com/eri707/node-express-api-project"
+                                    class="card-footer-item">Source
+                                    Code</a>
+                            </footer>
+                        </div>
+                    </div>
+                    <div class="column is-4">
+                        <!-- noteTaker -->
+                        <div class="card">
+                            <header class="card-header">
+                                <div class="card-header-title">
+                                    <span>NoteTaker</span>
+                                    <span class="is-pulled-right">
+                                        <span class="tag is-default ml-1">Desktop</span>
+                                        <!-- <span class="tag is-default">?</span> -->
+                                    </span>
+                                    <span class="is-size-7 ml-3 has-text-primary">
+                                        <div class="grid-container2">
+                                            <div class="grid-items2">
+                                                <img src="./src/skills/alpine.png" alt="" width="25">
+                                            </div>
+                                            <div class="grid-items2">
+                                                <img src="./src/skills/bulma.jpg" alt="" width="55">
+                                            </div>
+                                        </div>
+                                    </span>
+                                </div>
+                            </header>
+                            <div class="card-content">
+                                <figure class="image">
+                                    <img src="./src//portfolioScreenShots/Screenshot 2021-10-04 095432.png"
+                                        alt="noteTaker template screenshot">
+                                </figure>
+                            </div>
+                            <footer class="card-footer">
+                                <a href="https://eri707.github.io/cf-note-taker/" class="card-footer-item">Preview</a>
+                                <a href="https://github.com/eri707/cf-note-taker" class="card-footer-item">Source
+                                    Code</a>
+                            </footer>
+                        </div>
+                        <br> <!-- smartHome -->
+                        <div class="card">
+                            <header class="card-header">
+                                <div class="card-header-title">
+                                    <span>SmartHome</span>
+                                    <span class="is-pulled-right">
+                                        <span class="tag is-default ml-1">Desktop</span>
+                                        <!-- <span class="tag is-default">?</span> -->
+                                    </span>
+                                    <span class="is-size-7 ml-3 has-text-primary">
+                                        <div class="grid-container2">
+                                            <div class="grid-items2">
+                                                <img src="./src/skills/C_sharp CDMx.png" alt="" width="30">
+                                            </div>
+                                            <div class="grid-items2">
+                                                <img src="./src/skills/sql-azure-logo-e1455896865292.png" alt=""
+                                                    width="46">
+                                            </div>
+                                            <div class="grid-items2">
+                                                <img src="./src/skills/logo-aspdotnet-300x150.jpg" alt="" width="60">
+                                            </div>
+
+                                        </div>
+                                    </span>
+                                </div>
+                            </header>
+                            <div class="card-content">
+                                <figure class="image">
+                                    <img src="./src/portfolioScreenShots/no-image-available-icon-6.png"
+                                        alt="smartHome template screenshot">
+                                </figure>
+                            </div>
+                            <footer class="card-footer">
+                                <a href="" class="card-footer-item isDisabled">Preview</a>
+                                <a href="https://github.com/eri707/SmartHome" class="card-footer-item">Source
+                                    Code</a>
+                            </footer>
+                        </div>
+
+                    </div>
+                    <div class="column is-4">
+                        <!-- expenseTracker -->
+                        <div class="card">
+                            <header class="card-header">
+                                <div class="card-header-title">
+                                    <span>ExpenseTracker</span>
+                                    <span class="is-pulled-right">
+                                        <span class="tag is-default ml-1">Desktop</span>
+                                    </span>
+                                    <span class="is-size-7 ml-3 has-text-primary">
+                                        <div class="grid-container2">
+                                            <div class="grid-items2">
+                                                <img src="./src/skills/alpine.png" alt="" width="25">
+                                            </div>
+                                            <div class="grid-items2">
+                                                <img src="./src/skills/bulma.jpg" alt="" width="55">
+                                            </div>
+                                        </div>
+                                    </span>
+                                </div>
+                            </header>
+                            <div class="card-content">
+                                <figure class="image">
+                                    <img src="./src/portfolioScreenShots/Screenshot 2021-10-04 101521.png"
+                                        alt="expenseTracker template screenshot">
+                                </figure>
+                            </div>
+                            <footer class="card-footer">
+                                <a href="https://eri707.github.io/cf-expense-tracker/"
+                                    class="card-footer-item">Preview</a>
+                                <a href="https://github.com/eri707/cf-expense-tracker" class="card-footer-item">Source
+                                    Code</a>
+                            </footer>
+                        </div>
+                        <!-- BugTracker -->
+                        <br>
+                        <div class="card">
+                            <header class="card-header">
+                                <div class="card-header-title">
+                                    <span>BugTracker</span>
+                                    <span class="is-pulled-right">
+                                        <span class="tag is-default ml-1">Desktop</span>
+                                    </span>
+                                    <span class="is-size-7 ml-3 has-text-primary">
+                                        <div class="grid-container2">
+                                            <div class="grid-items2">
+                                                <img src="./src/skills/C_sharp CDMx.png" alt="" width="30">
+                                            </div>
+                                            <div class="grid-items2">
+                                                <img src="./src/skills/sql-azure-logo-e1455896865292.png" alt=""
+                                                    width="46">
+                                            </div>
+                                            <div class="grid-items2">
+                                                <img src="./src/skills/logo-aspdotnet-300x150.jpg" alt="" width="60">
+                                            </div>Razor Pages
+                                    </span>
+                                </div>
+                            </header>
+                            <div class="card-content">
+                                <figure class="image">
+                                    <img src="./src/portfolioScreenShots/Screenshot 2021-10-04 140123.png"
+                                        alt="expenseTracker template screenshot">
+                                </figure>
+                            </div>
+                            <footer class="card-footer">
+                                <a href="https://bug-tracker.azurewebsites.net/" class="card-footer-item">Preview</a>
+                                <a href="https://github.com/eri707/dotnet-bugtracker-api"
+                                    class="card-footer-item">Source
+                                    Code</a>
+                            </footer>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievement Level -->
+    <!-- <section class="section">
+    <nav class="level">
+      <div class="level-item has-text-centered">
+        <div>
+          <p class="heading">Tweets</p>
+          <p class="title">3,456</p>
+        </div>
+      </div>
+      <div class="level-item has-text-centered">
+        <div>
+          <p class="heading">Following</p>
+          <p class="title">123</p>
+        </div>
+      </div>
+      <div class="level-item has-text-centered">
+        <div>
+          <p class="heading">Followers</p>
+          <p class="title">456K</p>
+        </div>
+      </div>
+      <div class="level-item has-text-centered">
+        <div>
+          <p class="heading">Likes</p>
+          <p class="title">789</p>
+        </div>
+      </div>
+    </nav>
+  </section> -->
+
+    <!-- Contact -->
+    <!-- <section class="section" id="contact">
+        <div class="container">
+            <div class="section-heading">
+                <h3 class="title is-2">Contact</h3>
+                <h4 class="subtitle is-5">Get in touch</h4>
+            </div>
+            <br>
+
+            <div class="columns">
+                <div class="column is-6 is-offset-3">
+                        <div class="box">
+                            <div class="field">
+                                <label class="label">Name</label>
+                                <div class="control">
+                                    <input required class="input" type="text" placeholder="Text input">
+                                </div>
+                            </div>
+
+                            <div class="field">
+                                <label class="label">Email</label>
+                                <div class="control has-icons-left">
+                                    <input required class="input" type="email" placeholder="Email input" value="">
+                                    <span class="icon is-small is-left">
+                                        <i class="fas fa-envelope"></i>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="field">
+                                <label class="label">Message</label>
+                                <div class="control">
+                                    <textarea required class="textarea" placeholder="Textarea"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="field is-grouped has-text-centered">
+                                <div class="control">
+                                    <button class="button is-link is-large" type="submit" value="submit"><span
+                                            class="icon">
+                                            <i class="fas fa-envelope"></i>
+                                        </span>
+                                        <span>Submit</span></button>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+
+        </div>
+    </section> -->
+
+    <!-- Footer -->
+    <!--  <footer class="footer">
+        <div class="section-heading">
+            <p>
+                <strong>Bulma Personal Template</strong> by <a href="https://mubaidr.js.org">Muhammad Ubaid Raza</a>.
+                The
+                source code is licensed
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>.
+            </p>
+        </div>
+    </footer> -->
+</body>
+
+</html>

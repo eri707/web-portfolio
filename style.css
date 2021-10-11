@@ -1,0 +1,24 @@
+
+.isDisabled {
+    color: currentColor;
+    cursor: not-allowed;
+    opacity: 0.5;
+    /* text-decoration: none; */
+  }
+
+.grid-container {
+    display: grid;
+    grid-gap: 0;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.grid-item {
+    margin: auto;
+}
+.grid-container2 {
+    display: grid;
+    grid-gap: 0;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.grid-items2 {
+    margin: auto;
+}
